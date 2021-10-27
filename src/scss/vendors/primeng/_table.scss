@@ -1,0 +1,58 @@
+.p-datatable-responsive {
+  .p-column-title {
+    display: none;
+  }
+
+  @include media-breakpoint-down(md) {
+    .p-datatable-thead > tr > th,
+    .p-datatable-tfoot > tr > td {
+      display: none !important;
+    }
+    .p-datatable-tbody > tr > td {
+      text-align: left;
+      width: 100%;
+      float: left;
+      clear: left;
+      border: 0 none;
+      @include flexbox;
+
+      .p-column-title {
+        padding: .4rem;
+        min-width: 30%;
+        display: inline-block;
+        margin: -.4em 1em -.4em -.4rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.card-body-fit {
+  .p-datatable .p-datatable-thead > tr > th,
+  .p-datatable .p-datatable-tbody > tr > td {
+    &:last-child {
+      padding-right: 30px;
+    }
+
+    &:first-child {
+      padding-left: 30px;
+    }
+  }
+}
+
+.tb-col-checkbox {
+  width: 80px;
+}
+
+.tb-col-actions {
+  width: 100px;
+}
+
+.tb-col-actions-row {
+  text-align: right;
+  width: 170px;
+
+  .btn + .btn {
+    margin-left: 5px;
+  }
+}

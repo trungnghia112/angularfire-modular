@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<p>
+  <span class="video-control" data-func="playVideo">Play</span>
+  <span class="video-control" data-func="pauseVideo">Pause</span>
+  <span class="video-control" data-func="stopVideo">Stop</span>
+</p>
+<iframe src="https://www.youtube.com/embed/ZCEmI5_RLeQ?enablejsapi=1" width="640" height="380"></iframe>
+
+<script>
+    var frame = document.querySelector('iframe');
+    var controls = document.querySelectorAll('.video-control');
+
+    frame.contentWindow.postMessage(JSON.stringify(
+        {event: 'command', func: 'pauseVideo'}), '*');
+
+
+    var message = function (func) {
+        return JSON.stringify({
+            event: 'command',
+            func: func,
+            args: []
+        });
+    };
+
+    var execCommand = function (frame) {
+        return function (func) {
+            return function () {
+                frame.contentWindow.postMessage(message(func), '*');
+            };
+        };
+    };
+
+    var frameCommand = execCommand(frame);
+
+    var configControl = function (vc) {
+        var func = vc.getAttribute('data-func');
+        var handler = frameCommand(func);
+        vc.tabIndex = 0;
+        vc.addEventListener('click', handler, false);
+    };
+
+    [].forEach.call(controls, configControl);
+
+    console.log(frameCommand('onReady'));
+</script>
+</body>
+</html>

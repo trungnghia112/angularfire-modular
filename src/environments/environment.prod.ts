@@ -1,5 +1,20 @@
+const packageJson = require('../../package.json');
+
 export const environment = {
   production: true,
+  envName: 'PROD',
+  i18nPrefix: '',
+  appName: 'Angular Cli Seed',
+  appShortName: 'angular',
+  appPrefix: 'ACS',
+  domain: {
+    app: 'https://pwa-app-6924d.web.app'
+  },
+  API: 'https://us-central1-pwa-app-6924d.cloudfunctions.net',
+  proxy: 'https://square-sound-ef49.mathroya.workers.dev/corsproxy/?apiurl=',
+  versions: {
+    app: packageJson.version
+  },
   useEmulators: false,
   firebase: {
     apiKey: 'AIzaSyD6h91AYrTsn-a4eMFSVbbnQk38jdpDVAo',

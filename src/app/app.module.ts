@@ -15,6 +15,8 @@ import {
 } from '@angular/fire/firestore';
 import { connectAuthEmulator, getAuth, provideAuth } from '@angular/fire/auth';
 import { connectStorageEmulator, getStorage, provideStorage } from '@angular/fire/storage';
+import { CoreAppModule } from '@core/core.module';
+import { SharedAppModule } from '@shared/shared.module';
 
 let resolvePersistenceEnabled: (enabled: boolean) => void;
 
@@ -30,7 +32,10 @@ export const persistenceEnabled = new Promise<boolean>(resolve => {
   imports: [
     BrowserModule.withServerTransition({appId: 'serverApp'}),
     AppRoutingModule,
+    CoreAppModule,
+    SharedAppModule,
     AuthModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => {
       const auth = getAuth();
       if (environment.useEmulators) {
@@ -38,7 +43,6 @@ export const persistenceEnabled = new Promise<boolean>(resolve => {
       }
       return auth;
     }),
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideFirestore(() => {
       const firestore = getFirestore();
       if (environment.useEmulators) {

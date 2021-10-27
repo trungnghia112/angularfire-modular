@@ -1,0 +1,2645 @@
+[
+  {
+    "detail": {
+      "image": {
+        "type": "attr",
+        "index": null,
+        "query": "",
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content"
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "type": "attr",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content",
+        "query": ""
+      },
+      "title": {
+        "index": null,
+        "attr": "content",
+        "query": "",
+        "type": "attr",
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": []
+      },
+      "content": {
+        "type": "html",
+        "query": "",
+        "index": null,
+        "attr": "",
+        "remove_rules": [],
+        "replace_rules": [],
+        "element": ".elementor-widget-raven-post-content .elementor-widget-container"
+      },
+      "keywords": {
+        "type": "attr",
+        "index": null,
+        "element": "meta[name=\"keywords\"]",
+        "query": "",
+        "replace_rules": [],
+        "attr": "content"
+      },
+      "description": {
+        "attr": "content",
+        "index": null,
+        "query": "",
+        "element": "meta[property=\"og:description\"]",
+        "type": "attr",
+        "replace_rules": []
+      }
+    },
+    "domain": "123sao.vn",
+    "url": "https://123sao.vn",
+    "status": "active",
+    "id": "123sao.vn"
+  },
+  {
+    "status": "active",
+    "domain": "2sao.vn",
+    "url": "https://2sao.vn",
+    "id": "2sao.vn",
+    "detail": {
+      "keywords": {
+        "index": null,
+        "replace_rules": [],
+        "query": "",
+        "type": "attr",
+        "element": "meta[name=\"keywords\"]",
+        "attr": "content"
+      },
+      "site_name": {
+        "type": "attr",
+        "replace_rules": [],
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "query": "",
+        "attr": "content"
+      },
+      "image": {
+        "index": null,
+        "replace_rules": [],
+        "type": "attr",
+        "element": "meta[property=\"og:image\"]",
+        "query": "",
+        "attr": "content"
+      },
+      "content": {
+        "attr": "",
+        "replace_rules": [],
+        "query": "",
+        "element": ".main-detail-content",
+        "type": "html",
+        "index": null
+      },
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "query": "",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content"
+      },
+      "description": {
+        "attr": "content",
+        "index": null,
+        "element": "meta[property=\"og:description\"]",
+        "type": "attr",
+        "query": "",
+        "replace_rules": []
+      }
+    }
+  },
+  {
+    "url": "https://afamily.vn",
+    "detail": {
+      "content": {
+        "query": "",
+        "element": ".vceditor-content",
+        "index": null,
+        "type": "html",
+        "replace_rules": [],
+        "attr": "",
+        "remove_rules": []
+      },
+      "title": {
+        "type": "attr",
+        "index": null,
+        "replace_rules": [],
+        "query": "",
+        "element": "meta[property=\"og:title\"]",
+        "attr": "content"
+      },
+      "site_name": {
+        "index": null,
+        "attr": "content",
+        "element": "meta[property=\"og:site_name\"]",
+        "replace_rules": [],
+        "type": "attr",
+        "query": ""
+      },
+      "description": {
+        "index": null,
+        "replace_rules": [],
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "element": "meta[property=\"og:description\"]"
+      },
+      "image": {
+        "type": "attr",
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[property=\"og:image\"]",
+        "query": "",
+        "index": null
+      },
+      "keywords": {
+        "type": "attr",
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[name=\"keywords\"]",
+        "query": "",
+        "index": null
+      }
+    },
+    "status": "active",
+    "domain": "afamily.vn",
+    "id": "afamily.vn"
+  },
+  {
+    "status": "active",
+    "domain": "bantinmoi24h.com",
+    "detail": {
+      "title": {
+        "type": "attr",
+        "index": null,
+        "query": "",
+        "element": "meta[property=\"og:title\"]",
+        "attr": "content",
+        "replace_rules": []
+      },
+      "site_name": {
+        "type": "attr",
+        "attr": "content",
+        "query": "",
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "replace_rules": []
+      },
+      "content": {
+        "index": null,
+        "remove_rules": [],
+        "replace_rules": [],
+        "element": ".td-post-content",
+        "attr": "",
+        "type": "html",
+        "query": ""
+      },
+      "keywords": {
+        "attr": "content",
+        "index": null,
+        "query": "",
+        "type": "loop_string",
+        "element": ".td-tags a",
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": "#"
+          }
+        ]
+      },
+      "description": {
+        "query": "",
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": [],
+        "index": null,
+        "element": "meta[property=\"og:description\"]"
+      },
+      "image": {
+        "replace_rules": [],
+        "query": "",
+        "type": "attr",
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content",
+        "index": null
+      }
+    },
+    "url": "https://bantinmoi24h.com",
+    "id": "bantinmoi24h.com"
+  },
+  {
+    "url": "http://blog.y1dj.com",
+    "detail": {
+      "description": {
+        "index": 0,
+        "attr": "content",
+        "element": ".entry-content p",
+        "replace_rules": [],
+        "type": "html",
+        "query": ""
+      },
+      "keywords": {
+        "query": "",
+        "replace_rules": [],
+        "element": "meta[name=\"keywords\"]",
+        "type": "attr",
+        "attr": "content",
+        "index": null
+      },
+      "site_name": {
+        "index": null,
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr",
+        "query": "",
+        "element": "meta[property=\"og:site_name\"]"
+      },
+      "image": {
+        "attr": "content",
+        "element": "meta[property=\"og:image\"]",
+        "replace_rules": [],
+        "query": "",
+        "type": "attr",
+        "index": null
+      },
+      "title": {
+        "query": "",
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": [],
+        "index": null,
+        "type": "attr",
+        "attr": "content"
+      },
+      "content": {
+        "query": "",
+        "remove_rules": [],
+        "element": ".entry-content",
+        "replace_rules": [],
+        "type": "html",
+        "attr": "",
+        "index": null
+      }
+    },
+    "status": "active",
+    "domain": "blog.y1dj.com",
+    "id": "blog.y1dj.com"
+  },
+  {
+    "detail": {
+      "description": {
+        "attr": "content",
+        "query": "",
+        "element": "meta[property=\"og:description\"]",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr"
+      },
+      "image": {
+        "replace_rules": [],
+        "type": "attr",
+        "index": null,
+        "attr": "content",
+        "element": "meta[property=\"og:image\"]",
+        "query": ""
+      },
+      "keywords": {
+        "type": "loop_string",
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": "#"
+          }
+        ],
+        "element": ".tag-list li",
+        "index": null,
+        "query": "",
+        "attr": "content"
+      },
+      "site_name": {
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:site_name\"]",
+        "query": "",
+        "replace_rules": [],
+        "attr": "content"
+      },
+      "content": {
+        "attr": "",
+        "replace_rules": [],
+        "query": "",
+        "index": null,
+        "element": ".td-post-content",
+        "type": "html"
+      },
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": [],
+        "type": "attr",
+        "query": "",
+        "attr": "content",
+        "index": null
+      }
+    },
+    "status": "active",
+    "id": "blogtamsu.com",
+    "url": "https://blogtamsu.com",
+    "domain": "blogtamsu.com"
+  },
+  {
+    "detail": {
+      "title": {
+        "type": "attr",
+        "replace_rules": [],
+        "index": null,
+        "query": "",
+        "attr": "content",
+        "element": "meta[property=\"og:title\"]"
+      },
+      "description": {
+        "element": "meta[property=\"og:description\"]",
+        "type": "attr",
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content"
+      },
+      "site_name": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:site_name\"]",
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "index": null
+      },
+      "image": {
+        "attr": "content",
+        "replace_rules": [],
+        "query": "",
+        "index": null,
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr"
+      },
+      "content": {
+        "replace_rules": [],
+        "type": "html",
+        "query": "",
+        "index": null,
+        "attr": "",
+        "element": ".detail-content"
+      },
+      "keywords": {
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content",
+        "element": "meta[name=\"keywords\"]",
+        "type": "attr"
+      }
+    },
+    "domain": "cafebiz.vn",
+    "status": "active",
+    "id": "cafebiz.vn",
+    "url": "https://cafebiz.vn"
+  },
+  {
+    "status": "active",
+    "detail": {
+      "content": {
+        "type": "html",
+        "index": null,
+        "attr": "",
+        "replace_rules": [],
+        "element": ".td-post-content",
+        "query": "",
+        "remove_rules": []
+      },
+      "description": {
+        "index": 0,
+        "element": ".td-post-content p",
+        "type": "query",
+        "attr": "content",
+        "replace_rules": [],
+        "query": "$('.td-post-content p').first().text()"
+      },
+      "image": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "index": null,
+        "query": "",
+        "type": "attr",
+        "attr": "content"
+      },
+      "keywords": {
+        "type": "attr",
+        "index": null,
+        "replace_rules": [],
+        "element": "meta[name=\"keywords\"]",
+        "attr": "content",
+        "query": ""
+      },
+      "site_name": {
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "type": "attr",
+        "attr": "content"
+      },
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr",
+        "query": "",
+        "index": null
+      }
+    },
+    "domain": "cafetintuc.net",
+    "url": "https://cafetintuc.net",
+    "id": "cafetintuc.net"
+  },
+  {
+    "url": "https://congdongvietnam247.com",
+    "detail": {
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "attr": "content",
+        "query": "",
+        "replace_rules": [],
+        "type": "attr"
+      },
+      "keywords": {
+        "index": null,
+        "element": "meta[name=\"keywords\"]",
+        "attr": "content",
+        "query": "",
+        "replace_rules": [],
+        "type": "attr"
+      },
+      "title": {
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "replace_rules": [],
+        "query": "",
+        "element": "meta[property=\"og:title\"]"
+      },
+      "content": {
+        "replace_rules": [],
+        "query": "",
+        "type": "html",
+        "remove_rules": [],
+        "index": null,
+        "attr": "",
+        "element": ".td-post-content"
+      },
+      "image": {
+        "replace_rules": [],
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content",
+        "query": ""
+      },
+      "description": {
+        "index": null,
+        "type": "attr",
+        "query": "",
+        "attr": "content",
+        "element": "meta[property=\"og:description\"]",
+        "replace_rules": []
+      }
+    },
+    "domain": "congdongvietnam247.com",
+    "status": "active",
+    "id": "congdongvietnam247.com"
+  },
+  {
+    "domain": "cuoi.tuoitre.vn",
+    "detail": {
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "query": "",
+        "type": "attr",
+        "replace_rules": [],
+        "attr": "content",
+        "index": null
+      },
+      "image": {
+        "index": null,
+        "query": "",
+        "attr": "content",
+        "replace_rules": [],
+        "type": "attr",
+        "element": "meta[property=\"og:image\"]"
+      },
+      "site_name": {
+        "query": "",
+        "index": null,
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[property=\"og:site_name\"]",
+        "type": "attr"
+      },
+      "content": {
+        "attr": "",
+        "index": null,
+        "replace_rules": [],
+        "element": "#content",
+        "remove_rules": [
+          {
+            "type": "html",
+            "element": ".related-link",
+            "query": ""
+          }
+        ],
+        "query": "",
+        "type": "html"
+      },
+      "description": {
+        "attr": "content",
+        "replace_rules": [],
+        "query": "",
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]",
+        "index": null
+      },
+      "keywords": {
+        "attr": "content",
+        "type": "loop_string",
+        "element": ".slide-tags a",
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": "#"
+          }
+        ],
+        "query": "",
+        "index": null
+      }
+    },
+    "url": "https://cuoi.tuoitre.vn",
+    "status": "active",
+    "id": "cuoi.tuoitre.vn"
+  },
+  {
+    "id": "dantri.com.vn",
+    "domain": "dantri.com.vn",
+    "detail": {
+      "title": {
+        "attr": "content",
+        "element": "meta[property=\"og:title\"]",
+        "index": null,
+        "type": "attr",
+        "replace_rules": [],
+        "query": ""
+      },
+      "image": {
+        "query": "",
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content"
+      },
+      "site_name": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content",
+        "query": "",
+        "type": "attr",
+        "index": null
+      },
+      "keywords": {
+        "attr": "content",
+        "index": null,
+        "query": "",
+        "replace_rules": [],
+        "element": ".dt-news__tag-list a",
+        "type": "loop_string"
+      },
+      "description": {
+        "replace_rules": [],
+        "index": null,
+        "attr": "content",
+        "element": "meta[property=\"og:description\"]",
+        "query": "",
+        "type": "attr"
+      },
+      "content": {
+        "attr": "",
+        "element": ".dt-news__content",
+        "index": null,
+        "replace_rules": [],
+        "query": "",
+        "type": "html"
+      }
+    },
+    "status": "active",
+    "url": "https://dantri.com.vn"
+  },
+  {
+    "status": "active",
+    "id": "danviet.vn",
+    "url": "https://danviet.vn",
+    "domain": "danviet.vn",
+    "detail": {
+      "site_name": {
+        "replace_rules": [],
+        "query": "",
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content"
+      },
+      "description": {
+        "attr": "content",
+        "replace_rules": [],
+        "element": "meta[property=\"og:description\"]",
+        "query": "",
+        "index": null,
+        "type": "attr"
+      },
+      "title": {
+        "index": null,
+        "element": "meta[property=\"og:title\"]",
+        "attr": "content",
+        "query": "",
+        "type": "attr",
+        "replace_rules": []
+      },
+      "content": {
+        "type": "html",
+        "element": ".dt-content .entry-body",
+        "index": null,
+        "attr": "",
+        "replace_rules": [],
+        "query": ""
+      },
+      "image": {
+        "query": "",
+        "attr": "content",
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:image\"]",
+        "replace_rules": []
+      },
+      "keywords": {
+        "query": "",
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content",
+        "element": "meta[name=\"keywords\"]",
+        "index": null
+      }
+    }
+  },
+  {
+    "url": "https://eva.vn",
+    "domain": "eva.vn",
+    "status": "active",
+    "detail": {
+      "image": {
+        "type": "attr",
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content",
+        "replace_rules": [],
+        "index": null,
+        "query": ""
+      },
+      "keywords": {
+        "attr": "content",
+        "replace_rules": [],
+        "index": null,
+        "type": "attr",
+        "element": "meta[name=\"keywords\"]",
+        "query": ""
+      },
+      "site_name": {
+        "query": "",
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": [],
+        "index": null
+      },
+      "title": {
+        "attr": "content",
+        "replace_rules": [],
+        "element": "meta[property=\"og:title\"]",
+        "type": "attr",
+        "query": "",
+        "index": null
+      },
+      "description": {
+        "query": "",
+        "element": "meta[property=\"og:description\"]",
+        "replace_rules": [],
+        "type": "attr",
+        "index": null,
+        "attr": "content"
+      },
+      "content": {
+        "type": "html",
+        "index": null,
+        "remove_rules": [],
+        "attr": "",
+        "query": "",
+        "element": "#baiviet-container",
+        "replace_rules": []
+      }
+    },
+    "id": "eva.vn"
+  },
+  {
+    "detail": {
+      "description": {
+        "element": "meta[property=\"og:description\"]",
+        "query": "",
+        "index": null,
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": []
+      },
+      "title": {
+        "replace_rules": [],
+        "query": "",
+        "index": null,
+        "type": "attr",
+        "attr": "content",
+        "element": "meta[property=\"og:title\"]"
+      },
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "replace_rules": [],
+        "query": "",
+        "attr": "content",
+        "type": "attr",
+        "index": null
+      },
+      "content": {
+        "attr": "",
+        "query": "",
+        "replace_rules": [],
+        "type": "html",
+        "index": null,
+        "element": "div[id=\"noi_dung\"]"
+      },
+      "image": {
+        "element": "meta[property=\"og:image\"]",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content",
+        "query": "",
+        "type": "attr"
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content",
+        "type": "attr",
+        "query": "",
+        "replace_rules": [],
+        "index": null
+      }
+    },
+    "status": "active",
+    "domain": "game8.vn",
+    "url": "http://game8.vn",
+    "id": "game8.vn"
+  },
+  {
+    "detail": {
+      "keywords": {
+        "index": null,
+        "attr": "content",
+        "element": "meta[name=\"news_keywords\"]",
+        "replace_rules": [],
+        "query": "",
+        "type": "attr"
+      },
+      "title": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:title\"]",
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "index": null
+      },
+      "description": {
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]",
+        "index": null,
+        "query": ""
+      },
+      "site_name": {
+        "attr": "content",
+        "query": "",
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr"
+      },
+      "image": {
+        "replace_rules": [],
+        "attr": "content",
+        "index": null,
+        "element": "meta[property=\"og:image\"]",
+        "query": "",
+        "type": "attr"
+      },
+      "content": {
+        "query": "",
+        "type": "html",
+        "replace_rules": [],
+        "index": null,
+        "attr": "",
+        "element": ".rightdetail_content",
+        "remove_rules": [
+          {
+            "type": "html",
+            "query": "",
+            "element": ".link-content-footer"
+          },
+          {
+            "query": "",
+            "type": "html",
+            "element": ".link-source-wrapper"
+          }
+        ]
+      }
+    },
+    "url": "https://gamek.vn",
+    "domain": "gamek.vn",
+    "status": "active",
+    "id": "gamek.vn"
+  },
+  {
+    "url": "https://ione.net",
+    "id": "ione.net",
+    "domain": "ione.net",
+    "detail": {
+      "content": {
+        "element": ".fck_detail",
+        "attr": "",
+        "query": "",
+        "replace_rules": [],
+        "type": "html",
+        "index": null
+      },
+      "site_name": {
+        "type": "attr",
+        "query": "",
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null
+      },
+      "title": {
+        "replace_rules": [],
+        "type": "attr",
+        "query": "",
+        "attr": "content",
+        "index": null,
+        "element": "meta[property=\"og:title\"]"
+      },
+      "image": {
+        "index": null,
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content",
+        "replace_rules": [],
+        "query": "",
+        "type": "attr"
+      },
+      "description": {
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]",
+        "index": null,
+        "query": "",
+        "attr": "content",
+        "replace_rules": []
+      },
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "attr": "content",
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "type": "attr"
+      }
+    },
+    "status": "active"
+  },
+  {
+    "status": "active",
+    "url": "https://kenh14.vn/",
+    "domain": "kenh14.vn",
+    "id": "kenh14.vn",
+    "detail": {
+      "keywords": {
+        "replace_rules": [],
+        "index": null,
+        "element": "meta[name=\"keywords\"]",
+        "type": "attr",
+        "attr": "content",
+        "query": ""
+      },
+      "title": {
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "element": "meta[property=\"og:title\"]",
+        "index": null,
+        "replace_rules": []
+      },
+      "content": {
+        "element": ".knc-content",
+        "replace_rules": [],
+        "index": null,
+        "type": "html",
+        "attr": "",
+        "remove_rules": [
+          {
+            "element": "[type=\"RelatedNewsBox\"]",
+            "type": "html",
+            "query": null
+          }
+        ],
+        "query": ""
+      },
+      "image": {
+        "query": "",
+        "index": null,
+        "type": "attr",
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content"
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content",
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "type": "attr"
+      },
+      "description": {
+        "type": "attr",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content",
+        "query": "",
+        "element": "meta[property=\"og:description\"]"
+      }
+    }
+  },
+  {
+    "url": "http://kenhtintucmoi24h.com",
+    "id": "kenhtintucmoi24h.com",
+    "detail": {
+      "image": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr",
+        "index": null,
+        "query": "",
+        "attr": "content"
+      },
+      "site_name": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:site_name\"]",
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "index": null
+      },
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "index": null,
+        "attr": "content",
+        "replace_rules": [],
+        "type": "attr",
+        "query": ""
+      },
+      "title": {
+        "replace_rules": [],
+        "attr": "content",
+        "index": null,
+        "element": "meta[property=\"og:title\"]",
+        "type": "attr",
+        "query": ""
+      },
+      "description": {
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:description\"]",
+        "query": ""
+      },
+      "content": {
+        "type": "html",
+        "index": null,
+        "element": ".entry-content",
+        "attr": "",
+        "query": "",
+        "replace_rules": []
+      }
+    },
+    "domain": "kenhtintucmoi24h.com",
+    "status": "active"
+  },
+  {
+    "url": "https://logidoi.com",
+    "domain": "logidoi.com",
+    "status": "active",
+    "detail": {
+      "title": {
+        "attr": "content",
+        "query": "",
+        "replace_rules": [],
+        "element": "meta[property=\"og:title\"]",
+        "type": "attr",
+        "index": null
+      },
+      "description": {
+        "attr": "content",
+        "query": "",
+        "index": null,
+        "type": "attr",
+        "replace_rules": [],
+        "element": "meta[property=\"og:description\"]"
+      },
+      "image": {
+        "attr": "content",
+        "type": "attr",
+        "query": "",
+        "index": null,
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]"
+      },
+      "content": {
+        "type": "html",
+        "attr": "",
+        "index": null,
+        "element": ".entry",
+        "query": "",
+        "replace_rules": [],
+        "remove_rules": [
+          {
+            "query": "",
+            "type": "html",
+            "element": ".share-post"
+          }
+        ]
+      },
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "index": null,
+        "type": "attr",
+        "query": "",
+        "attr": "content",
+        "replace_rules": []
+      },
+      "site_name": {
+        "index": null,
+        "type": "attr",
+        "query": "",
+        "attr": "content",
+        "element": "meta[property=\"og:site_name\"]",
+        "replace_rules": []
+      }
+    },
+    "id": "logidoi.com"
+  },
+  {
+    "id": "mnewsvn.com",
+    "url": "https://mnewsvn.com",
+    "status": "active",
+    "domain": "mnewsvn.com",
+    "detail": {
+      "title": {
+        "type": "attr",
+        "query": "",
+        "element": "meta[property=\"og:title\"]",
+        "attr": "content",
+        "index": null,
+        "replace_rules": []
+      },
+      "keywords": {
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "query": "",
+        "replace_rules": [],
+        "element": "meta[name=\"keywords\"]"
+      },
+      "image": {
+        "replace_rules": [],
+        "query": "",
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:image\"]"
+      },
+      "content": {
+        "index": null,
+        "query": "",
+        "attr": "",
+        "type": "html",
+        "replace_rules": [],
+        "element": ".article-content"
+      },
+      "description": {
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "index": null,
+        "replace_rules": [
+          {
+            "search_value": "[Mnewsvn.com] ",
+            "new_value": ""
+          }
+        ],
+        "element": "meta[property=\"og:description\"]"
+      },
+      "site_name": {
+        "replace_rules": [],
+        "type": "attr",
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "attr": "content",
+        "query": ""
+      }
+    }
+  },
+  {
+    "status": "active",
+    "detail": {
+      "description": {
+        "index": null,
+        "type": "attr",
+        "attr": "content",
+        "replace_rules": [],
+        "element": "meta[property=\"og:description\"]",
+        "query": ""
+      },
+      "keywords": {
+        "index": null,
+        "query": "",
+        "attr": "content",
+        "replace_rules": [],
+        "type": "loop_string",
+        "element": "#box_tag h3"
+      },
+      "content": {
+        "query": "",
+        "attr": "",
+        "type": "html",
+        "element": ".fck_detail",
+        "replace_rules": [],
+        "index": null
+      },
+      "site_name": {
+        "query": "",
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "type": "attr"
+      },
+      "title": {
+        "query": "",
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[property=\"og:title\"]",
+        "type": "attr",
+        "index": null
+      },
+      "image": {
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr",
+        "attr": "content",
+        "replace_rules": [],
+        "query": "",
+        "index": null
+      }
+    },
+    "id": "ngoisao.net",
+    "url": "https://ngoisao.net",
+    "domain": "ngoisao.net"
+  },
+  {
+    "id": "nld.com.vn",
+    "url": "https://nld.com.vn",
+    "detail": {
+      "site_name": {
+        "attr": "content",
+        "index": null,
+        "query": "",
+        "type": "attr",
+        "element": "meta[property=\"og:site_name\"]",
+        "replace_rules": []
+      },
+      "content": {
+        "replace_rules": [],
+        "query": "",
+        "index": null,
+        "type": "html",
+        "attr": "",
+        "element": ".contentbody"
+      },
+      "image": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "index": null,
+        "attr": "content",
+        "type": "attr",
+        "query": ""
+      },
+      "keywords": {
+        "index": null,
+        "attr": "content",
+        "element": "meta[name=\"news_keywords\"]",
+        "query": "",
+        "replace_rules": [],
+        "type": "attr"
+      },
+      "title": {
+        "query": "",
+        "element": "meta[property=\"og:title\"]",
+        "attr": "content",
+        "type": "attr",
+        "index": null,
+        "replace_rules": []
+      },
+      "description": {
+        "type": "attr",
+        "query": "",
+        "index": null,
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": "(NLĐO) - "
+          }
+        ],
+        "element": "meta[property=\"og:description\"]",
+        "attr": "content"
+      }
+    },
+    "status": "active",
+    "domain": "nld.com.vn"
+  },
+  {
+    "detail": {
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "query": "",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content"
+      },
+      "site_name": {
+        "attr": "content",
+        "element": "meta[property=\"og:site_name\"]",
+        "query": "",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr"
+      },
+      "title": {
+        "index": null,
+        "query": "",
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content",
+        "element": "meta[property=\"og:title\"]"
+      },
+      "description": {
+        "element": "meta[property=\"og:description\"]",
+        "attr": "content",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr",
+        "query": ""
+      },
+      "content": {
+        "element": ".entry-content",
+        "query": "",
+        "remove_rules": [],
+        "index": null,
+        "attr": "",
+        "replace_rules": [],
+        "type": "html"
+      },
+      "image": {
+        "type": "attr",
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "index": null,
+        "query": "",
+        "attr": "content"
+      }
+    },
+    "url": "https://primenews25.com",
+    "status": "active",
+    "domain": "primenews25.com",
+    "id": "primenews25.com"
+  },
+  {
+    "domain": "saostar.vn",
+    "id": "saostar.vn",
+    "status": "active",
+    "detail": {
+      "title": {
+        "type": "attr",
+        "replace_rules": [],
+        "element": "meta[property=\"og:title\"]",
+        "attr": "content",
+        "query": "",
+        "index": null
+      },
+      "content": {
+        "query": "",
+        "element": ".art-content",
+        "index": null,
+        "replace_rules": [],
+        "type": "html",
+        "attr": ""
+      },
+      "keywords": {
+        "replace_rules": [],
+        "type": "loop_string",
+        "index": null,
+        "attr": "content",
+        "query": "",
+        "element": ".art-tag a"
+      },
+      "site_name": {
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "query": "",
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": []
+      },
+      "image": {
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[property=\"og:image\"]",
+        "query": "",
+        "index": null,
+        "type": "attr"
+      },
+      "description": {
+        "index": null,
+        "element": "meta[property=\"og:description\"]",
+        "type": "attr",
+        "query": "",
+        "replace_rules": [],
+        "attr": "content"
+      }
+    },
+    "url": "https://saostar.vn"
+  },
+  {
+    "detail": {
+      "content": {
+        "replace_rules": [],
+        "element": ".elementor-widget-raven-post-content",
+        "index": null,
+        "remove_rules": [],
+        "type": "html",
+        "attr": "",
+        "query": ""
+      },
+      "keywords": {
+        "type": "loop_string",
+        "replace_rules": [],
+        "element": ".raven-post-meta-terms-list a",
+        "index": null,
+        "attr": "content",
+        "query": ""
+      },
+      "image": {
+        "attr": "content",
+        "query": "",
+        "element": "meta[property=\"og:image\"]",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr"
+      },
+      "site_name": {
+        "attr": "content",
+        "query": "",
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "replace_rules": [],
+        "type": "attr"
+      },
+      "description": {
+        "element": "meta[property=\"og:description\"]",
+        "index": null,
+        "replace_rules": [],
+        "query": "",
+        "attr": "content",
+        "type": "attr"
+      },
+      "title": {
+        "attr": "content",
+        "replace_rules": [],
+        "type": "attr",
+        "query": "",
+        "element": "meta[property=\"og:title\"]",
+        "index": null
+      }
+    },
+    "domain": "sinhvienplus.vn",
+    "url": "https://sinhvienplus.vn",
+    "status": "active",
+    "id": "sinhvienplus.vn"
+  },
+  {
+    "domain": "soha.vn",
+    "status": "active",
+    "url": "https://soha.vn",
+    "detail": {
+      "description": {
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "element": "meta[property=\"og:description\"]",
+        "attr": "content",
+        "type": "attr"
+      },
+      "keywords": {
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[name=\"keywords\"]",
+        "query": "",
+        "type": "attr",
+        "index": null
+      },
+      "content": {
+        "type": "html",
+        "remove_rules": [],
+        "index": null,
+        "element": ".detail-body .news-content",
+        "replace_rules": [],
+        "query": "",
+        "attr": ""
+      },
+      "title": {
+        "query": "",
+        "element": "meta[property=\"og:title\"]",
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": [],
+        "index": null
+      },
+      "site_name": {
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content",
+        "element": "meta[property=\"og:site_name\"]",
+        "type": "attr"
+      },
+      "image": {
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:image\"]",
+        "query": ""
+      }
+    },
+    "id": "soha.vn"
+  },
+  {
+    "domain": "thanhnien.vn",
+    "status": "active",
+    "url": "https://thanhnien.vn",
+    "detail": {
+      "content": {
+        "index": null,
+        "replace_rules": [],
+        "attr": "",
+        "type": "html",
+        "element": "div[itemprop=\"articleBody\"]",
+        "query": ""
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "query": "",
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content"
+      },
+      "keywords": {
+        "attr": "content",
+        "replace_rules": [],
+        "query": "",
+        "index": null,
+        "type": "attr",
+        "element": "meta[name=\"keywords\"]"
+      },
+      "title": {
+        "index": null,
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": [],
+        "query": "",
+        "element": "meta[property=\"og:title\"]"
+      },
+      "image": {
+        "type": "attr",
+        "index": null,
+        "attr": "content",
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "query": ""
+      },
+      "description": {
+        "replace_rules": [],
+        "index": null,
+        "element": "meta[property=\"og:description\"]",
+        "attr": "content",
+        "type": "attr",
+        "query": ""
+      }
+    },
+    "id": "thanhnien.vn"
+  },
+  {
+    "id": "tiin.vn",
+    "detail": {
+      "image": {
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:image\"]",
+        "query": ""
+      },
+      "keywords": {
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": "#"
+          }
+        ],
+        "element": ".tag-list a[itemprop=\"keywords\"]",
+        "type": "loop_string",
+        "index": null,
+        "attr": "content",
+        "query": ""
+      },
+      "description": {
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[property=\"og:description\"]",
+        "query": "",
+        "type": "attr",
+        "index": null
+      },
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content",
+        "index": null,
+        "query": ""
+      },
+      "content": {
+        "type": "html",
+        "replace_rules": [],
+        "attr": "",
+        "index": null,
+        "query": "",
+        "element": "#body-content"
+      },
+      "site_name": {
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content",
+        "replace_rules": [],
+        "type": "attr",
+        "query": ""
+      }
+    },
+    "domain": "tiin.vn",
+    "url": "http://tiin.vn",
+    "status": "active"
+  },
+  {
+    "domain": "tinhte.vn",
+    "detail": {
+      "content": {
+        "element": "article.content .xf-body-paragraph",
+        "query": "",
+        "attr": "",
+        "type": "html",
+        "replace_rules": [],
+        "index": null
+      },
+      "description": {
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]",
+        "replace_rules": [
+          {
+            "search_value": " | Tinh tế",
+            "new_value": ""
+          }
+        ],
+        "query": "",
+        "attr": "content",
+        "index": null
+      },
+      "site_name": {
+        "replace_rules": [],
+        "query": "",
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content"
+      },
+      "title": {
+        "index": null,
+        "query": "",
+        "attr": "content",
+        "type": "attr",
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": []
+      },
+      "keywords": {
+        "type": "attr",
+        "attr": "content",
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "element": "meta[name=\"keywords\"]"
+      },
+      "image": {
+        "query": "",
+        "index": null,
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content",
+        "type": "attr"
+      }
+    },
+    "id": "tinhte.vn",
+    "url": "https://tinhte.vn",
+    "status": "active"
+  },
+  {
+    "url": "https://tinnhanh84.com",
+    "detail": {
+      "title": {
+        "attr": "content",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr",
+        "query": "",
+        "element": "meta[property=\"og:title\"]"
+      },
+      "content": {
+        "element": ".td-post-content",
+        "remove_rules": [],
+        "index": null,
+        "type": "html",
+        "replace_rules": [],
+        "query": "",
+        "attr": ""
+      },
+      "site_name": {
+        "attr": "content",
+        "replace_rules": [],
+        "query": "",
+        "element": "meta[property=\"og:site_name\"]",
+        "type": "attr",
+        "index": null
+      },
+      "image": {
+        "query": "",
+        "index": null,
+        "type": "attr",
+        "attr": "content",
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]"
+      },
+      "description": {
+        "query": "",
+        "element": ".td-post-sub-title",
+        "index": null,
+        "replace_rules": [],
+        "type": "html",
+        "attr": "content"
+      },
+      "keywords": {
+        "index": null,
+        "query": "",
+        "element": "meta[name=\"keywords\"]",
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr"
+      }
+    },
+    "domain": "tinnhanh84.com",
+    "status": "active",
+    "id": "tinnhanh84.com"
+  },
+  {
+    "status": "active",
+    "detail": {
+      "description": {
+        "attr": "content",
+        "index": null,
+        "replace_rules": [],
+        "element": "meta[property=\"og:description\"]",
+        "type": "attr",
+        "query": ""
+      },
+      "image": {
+        "query": "",
+        "attr": "content",
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr",
+        "index": null,
+        "replace_rules": []
+      },
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "index": null,
+        "attr": "content",
+        "replace_rules": [],
+        "type": "attr",
+        "query": ""
+      },
+      "title": {
+        "replace_rules": [],
+        "query": "",
+        "type": "attr",
+        "element": "meta[property=\"og:title\"]",
+        "attr": "content",
+        "index": null
+      },
+      "site_name": {
+        "replace_rules": [],
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "type": "attr",
+        "query": "",
+        "attr": "content"
+      },
+      "content": {
+        "index": null,
+        "replace_rules": [],
+        "attr": "",
+        "type": "html",
+        "query": "",
+        "element": ".td-post-content"
+      }
+    },
+    "url": "https://tinnhanhvnn.com",
+    "domain": "tinnhanhvnn.com",
+    "id": "tinnhanhvnn.com"
+  },
+  {
+    "url": "http://toptin24.com",
+    "domain": "toptin24.com",
+    "status": "active",
+    "detail": {
+      "content": {
+        "attr": "",
+        "replace_rules": [],
+        "remove_rules": [
+          {
+            "type": "html",
+            "query": "",
+            "element": ".td-a-rec"
+          }
+        ],
+        "type": "html",
+        "element": ".td-post-content",
+        "index": null,
+        "query": ""
+      },
+      "keywords": {
+        "replace_rules": [],
+        "element": "meta[name=\"keywords\"]",
+        "index": null,
+        "attr": "content",
+        "query": "",
+        "type": "attr"
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "type": "attr",
+        "replace_rules": [],
+        "query": "",
+        "attr": "content"
+      },
+      "image": {
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:image\"]",
+        "query": "",
+        "attr": "content",
+        "replace_rules": []
+      },
+      "title": {
+        "type": "attr",
+        "query": "",
+        "replace_rules": [],
+        "attr": "content",
+        "index": null,
+        "element": "meta[property=\"og:title\"]"
+      },
+      "description": {
+        "query": "",
+        "element": "meta[property=\"og:description\"]",
+        "type": "attr",
+        "replace_rules": [],
+        "attr": "content",
+        "index": null
+      }
+    },
+    "id": "toptin24.com"
+  },
+  {
+    "detail": {
+      "title": {
+        "replace_rules": [
+          {
+            "search_value": " - Tuổi Trẻ Online",
+            "new_value": ""
+          }
+        ],
+        "index": null,
+        "type": "attr",
+        "attr": "content",
+        "query": "",
+        "element": "meta[property=\"og:title\"]"
+      },
+      "image": {
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "index": null
+      },
+      "site_name": {
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr",
+        "element": "meta[property=\"og:site_name\"]",
+        "query": "",
+        "index": null
+      },
+      "content": {
+        "replace_rules": [],
+        "attr": "",
+        "query": "",
+        "element": "#main-detail-body",
+        "type": "html",
+        "index": null
+      },
+      "description": {
+        "replace_rules": [
+          {
+            "search_value": "TTO - ",
+            "new_value": ""
+          }
+        ],
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]",
+        "attr": "content",
+        "query": ""
+      },
+      "keywords": {
+        "index": null,
+        "type": "loop_string",
+        "replace_rules": [],
+        "query": "",
+        "attr": "content",
+        "element": ".tags-wrapper a"
+      }
+    },
+    "domain": "tuoitre.vn",
+    "url": "https://tuoitre.vn",
+    "status": "active",
+    "id": "tuoitre.vn"
+  },
+  {
+    "id": "vietnamnet.vn",
+    "detail": {
+      "keywords": {
+        "index": null,
+        "type": "attr",
+        "query": "",
+        "replace_rules": [],
+        "element": "meta[name=\"keywords\"]",
+        "attr": "content"
+      },
+      "image": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr",
+        "query": "",
+        "attr": "content",
+        "index": null
+      },
+      "title": {
+        "query": "",
+        "attr": "content",
+        "replace_rules": [],
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:title\"]"
+      },
+      "site_name": {
+        "index": null,
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "replace_rules": [],
+        "element": "meta[property=\"og:site_name\"]"
+      },
+      "description": {
+        "type": "attr",
+        "index": null,
+        "element": "meta[property=\"og:description\"]",
+        "query": "",
+        "attr": "content",
+        "replace_rules": []
+      },
+      "content": {
+        "index": null,
+        "type": "html",
+        "query": "",
+        "attr": "",
+        "replace_rules": [],
+        "element": ".ArticleContent"
+      }
+    },
+    "domain": "vietnamnet.vn",
+    "status": "active",
+    "url": "https://vietnamnet.vn"
+  },
+  {
+    "detail": {
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": " - VnExpress"
+          }
+        ],
+        "query": "",
+        "type": "attr",
+        "index": null,
+        "attr": "content"
+      },
+      "description": {
+        "query": "",
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]",
+        "replace_rules": [],
+        "attr": "content"
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "attr": "content",
+        "replace_rules": [],
+        "query": "",
+        "type": "attr"
+      },
+      "content": {
+        "type": "html",
+        "remove_rules": [
+          {
+            "query": "",
+            "type": "html",
+            "element": ".list-news"
+          }
+        ],
+        "index": null,
+        "query": "",
+        "replace_rules": [],
+        "attr": "",
+        "element": ".fck_detail"
+      },
+      "image": {
+        "attr": "content",
+        "type": "attr",
+        "index": null,
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "query": ""
+      },
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "index": null,
+        "type": "attr",
+        "replace_rules": [],
+        "attr": "content",
+        "query": ""
+      }
+    },
+    "status": "active",
+    "domain": "vnexpress.net",
+    "url": "https://vnexpress.net",
+    "id": "vnexpress.net"
+  },
+  {
+    "domain": "vtv.vn",
+    "status": "active",
+    "detail": {
+      "content": {
+        "type": "html",
+        "element": ".infomationdetail",
+        "index": null,
+        "remove_rules": [],
+        "attr": "",
+        "query": "",
+        "replace_rules": []
+      },
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": [],
+        "index": null,
+        "query": ""
+      },
+      "description": {
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": "VTV.vn - "
+          }
+        ],
+        "index": null,
+        "attr": "content",
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]",
+        "query": ""
+      },
+      "image": {
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content"
+      },
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "type": "attr",
+        "query": "",
+        "index": null,
+        "attr": "content",
+        "replace_rules": []
+      },
+      "site_name": {
+        "query": "",
+        "replace_rules": [],
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:site_name\"]"
+      }
+    },
+    "url": "https://vtv.vn",
+    "id": "vtv.vn"
+  },
+  {
+    "status": "active",
+    "id": "webtinmoi24.com",
+    "detail": {
+      "image": {
+        "query": "",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content",
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr"
+      },
+      "content": {
+        "element": ".td-post-content",
+        "replace_rules": [],
+        "index": null,
+        "query": "",
+        "remove_rules": [],
+        "attr": "",
+        "type": "html"
+      },
+      "title": {
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": " - Web Tin Mới"
+          }
+        ],
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:title\"]",
+        "query": ""
+      },
+      "description": {
+        "attr": "content",
+        "element": "meta[property=\"og:description\"]",
+        "index": null,
+        "replace_rules": [],
+        "query": "",
+        "type": "attr"
+      },
+      "keywords": {
+        "element": ".td-tags li",
+        "index": null,
+        "query": "",
+        "type": "loop_string",
+        "replace_rules": [
+          {
+            "search_value": "TAGS,",
+            "new_value": ""
+          }
+        ],
+        "attr": "content"
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content",
+        "index": null,
+        "query": "",
+        "type": "attr",
+        "replace_rules": []
+      }
+    },
+    "url": "http://webtinmoi24.com",
+    "domain": "webtinmoi24.com"
+  },
+  {
+    "status": "active",
+    "url": "https://webtintuc.com",
+    "domain": "webtintuc.com",
+    "id": "webtintuc.com",
+    "detail": {
+      "content": {
+        "replace_rules": [],
+        "type": "html",
+        "index": null,
+        "attr": "",
+        "query": "",
+        "element": ".td-post-content"
+      },
+      "site_name": {
+        "index": null,
+        "element": "meta[property=\"og:site_name\"]",
+        "replace_rules": [],
+        "attr": "content",
+        "type": "attr",
+        "query": ""
+      },
+      "keywords": {
+        "attr": "content",
+        "index": null,
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": "#"
+          }
+        ],
+        "element": ".tag-list li",
+        "type": "loop_string",
+        "query": ""
+      },
+      "image": {
+        "type": "attr",
+        "query": "",
+        "attr": "content",
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "index": null
+      },
+      "description": {
+        "attr": "content",
+        "type": "attr",
+        "index": null,
+        "query": "",
+        "replace_rules": [],
+        "element": "meta[property=\"og:description\"]"
+      },
+      "title": {
+        "type": "attr",
+        "index": null,
+        "replace_rules": [],
+        "element": "meta[property=\"og:title\"]",
+        "query": "",
+        "attr": "content"
+      }
+    }
+  },
+  {
+    "status": "active",
+    "domain": "www.24h.com.vn",
+    "detail": {
+      "keywords": {
+        "attr": "content",
+        "query": "",
+        "element": "meta[name=\"keywords\"]",
+        "replace_rules": [],
+        "index": null,
+        "type": "attr"
+      },
+      "content": {
+        "replace_rules": [],
+        "attr": "",
+        "remove_rules": [
+          {
+            "type": "html",
+            "query": "",
+            "element": "#article_title"
+          },
+          {
+            "element": "#article_sapo",
+            "type": "html",
+            "query": ""
+          },
+          {
+            "query": "",
+            "type": "html",
+            "element": ".updTmD"
+          },
+          {
+            "query": "",
+            "element": ".bmTpSeoBlkD",
+            "type": "html"
+          }
+        ],
+        "type": "html",
+        "index": null,
+        "query": "",
+        "element": "#article_body"
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "replace_rules": [],
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "query": ""
+      },
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "index": null,
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": [],
+        "query": ""
+      },
+      "description": {
+        "query": "",
+        "attr": "content",
+        "replace_rules": [],
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]"
+      },
+      "image": {
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr",
+        "attr": "content",
+        "query": "",
+        "replace_rules": [],
+        "index": null
+      }
+    },
+    "url": "https://www.24h.com.vn",
+    "id": "www.24h.com.vn"
+  },
+  {
+    "detail": {
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "query": "",
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content"
+      },
+      "keywords": {
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[name=\"keywords\"]",
+        "index": null,
+        "query": "",
+        "type": "attr"
+      },
+      "image": {
+        "index": null,
+        "replace_rules": [],
+        "element": "meta[property=\"og:image\"]",
+        "attr": "content",
+        "query": "",
+        "type": "attr"
+      },
+      "content": {
+        "type": "html",
+        "element": ".content-inner",
+        "index": null,
+        "attr": "",
+        "query": "",
+        "remove_rules": [],
+        "replace_rules": []
+      },
+      "description": {
+        "attr": "content",
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]",
+        "index": null,
+        "replace_rules": [],
+        "query": ""
+      },
+      "title": {
+        "replace_rules": [],
+        "query": "",
+        "index": null,
+        "attr": "content",
+        "element": "title",
+        "type": "text"
+      }
+    },
+    "domain": "www.bantinmoingay.com",
+    "status": "active",
+    "url": "https://www.bantinmoingay.com",
+    "id": "www.bantinmoingay.com"
+  },
+  {
+    "detail": {
+      "image": {
+        "attr": "content",
+        "type": "attr",
+        "replace_rules": [],
+        "index": null,
+        "query": "",
+        "element": "meta[property=\"og:image\"]"
+      },
+      "site_name": {
+        "element": "meta[property=\"og:site_name\"]",
+        "query": "",
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content",
+        "index": null
+      },
+      "keywords": {
+        "element": "meta[name=\"keywords\"]",
+        "index": null,
+        "type": "attr",
+        "attr": "content",
+        "query": "",
+        "replace_rules": []
+      },
+      "title": {
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": [],
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "query": ""
+      },
+      "content": {
+        "element": ".post-content",
+        "query": "",
+        "attr": "",
+        "index": null,
+        "replace_rules": [],
+        "remove_rules": [],
+        "type": "html"
+      },
+      "description": {
+        "type": "attr",
+        "replace_rules": [],
+        "element": "meta[property=\"og:description\"]",
+        "attr": "content",
+        "query": "",
+        "index": null
+      }
+    },
+    "url": "https://www.webtretho.com",
+    "status": "active",
+    "domain": "www.webtretho.com",
+    "id": "www.webtretho.com"
+  },
+  {
+    "id": "www.yan.vn",
+    "detail": {
+      "description": {
+        "type": "attr",
+        "index": null,
+        "query": "",
+        "attr": "content",
+        "element": "meta[property=\"og:description\"]",
+        "replace_rules": []
+      },
+      "image": {
+        "replace_rules": [],
+        "query": "",
+        "element": "meta[property=\"og:image\"]",
+        "index": null,
+        "type": "attr",
+        "attr": "content"
+      },
+      "keywords": {
+        "query": "",
+        "attr": "content",
+        "index": null,
+        "replace_rules": [],
+        "type": "attr",
+        "element": "meta[name=\"keywords\"]"
+      },
+      "site_name": {
+        "type": "attr",
+        "replace_rules": [],
+        "attr": "content",
+        "element": "meta[property=\"og:site_name\"]",
+        "index": null,
+        "query": ""
+      },
+      "title": {
+        "replace_rules": [],
+        "element": "meta[property=\"og:title\"]",
+        "query": "",
+        "type": "attr",
+        "attr": "content",
+        "index": null
+      },
+      "content": {
+        "remove_rules": [
+          {
+            "type": "html",
+            "element": "img[src=\"/images/fb.jpg\"]"
+          },
+          {
+            "element": "img[src=\"/images/link.jpg\"]",
+            "type": "html"
+          }
+        ],
+        "index": null,
+        "replace_rules": [],
+        "element": "div[id=\"contentBody\"]",
+        "query": "",
+        "type": "html",
+        "attr": ""
+      }
+    },
+    "status": "active",
+    "url": "https://www.yan.vn/",
+    "domain": "www.yan.vn"
+  },
+  {
+    "id": "yeah1.com",
+    "detail": {
+      "keywords": {
+        "type": "attr",
+        "element": "meta[name=\"keywords\"]",
+        "replace_rules": [],
+        "index": null,
+        "attr": "content",
+        "query": ""
+      },
+      "content": {
+        "replace_rules": [],
+        "element": ".article-content",
+        "query": "",
+        "type": "html",
+        "attr": "",
+        "remove_rules": [
+          {
+            "type": "html",
+            "element": ".box-styled"
+          },
+          {
+            "element": ".box-ads-content",
+            "type": "html"
+          }
+        ],
+        "index": null
+      },
+      "title": {
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "query": "$('.article-container h1.card-title').text()",
+        "element": "meta[property=\"og:title\"]",
+        "replace_rules": []
+      },
+      "image": {
+        "replace_rules": [],
+        "attr": "content",
+        "index": null,
+        "element": "meta[property=\"og:image\"]",
+        "type": "attr",
+        "query": ""
+      },
+      "site_name": {
+        "attr": "content",
+        "query": "",
+        "type": "attr",
+        "element": "meta[property=\"og:site_name\"]",
+        "replace_rules": [
+          {
+            "new_value": "",
+            "search_value": " - Website tin tức tổng hợp hàng đầu Việt Nam"
+          }
+        ],
+        "index": null
+      },
+      "description": {
+        "replace_rules": [],
+        "query": "",
+        "attr": "content",
+        "index": null,
+        "type": "attr",
+        "element": "meta[property=\"og:description\"]"
+      }
+    },
+    "status": "active",
+    "domain": "yeah1.com",
+    "url": "https://yeah1.com/"
+  },
+  {
+    "detail": {
+      "image": {
+        "type": "attr",
+        "element": "meta[property=\"og:image\"]",
+        "replace_rules": [],
+        "attr": "content",
+        "query": "",
+        "index": null
+      },
+      "content": {
+        "index": null,
+        "element": ".the-article-body",
+        "query": "",
+        "attr": "",
+        "replace_rules": [],
+        "type": "html"
+      },
+      "description": {
+        "index": null,
+        "element": "meta[property=\"og:description\"]",
+        "query": "",
+        "replace_rules": [],
+        "type": "attr",
+        "attr": "content"
+      },
+      "title": {
+        "index": null,
+        "attr": "content",
+        "query": "",
+        "type": "attr",
+        "replace_rules": [],
+        "element": "meta[property=\"og:title\"]"
+      },
+      "keywords": {
+        "type": "attr",
+        "replace_rules": [],
+        "query": "",
+        "element": "meta[name=\"keywords\"]",
+        "attr": "content",
+        "index": null
+      },
+      "site_name": {
+        "index": null,
+        "type": "attr",
+        "query": "",
+        "element": "meta[property=\"og:site_name\"]",
+        "attr": "content",
+        "replace_rules": []
+      }
+    },
+    "id": "zingnews.vn",
+    "domain": "zingnews.vn",
+    "url": "https://zingnews.vn/",
+    "status": "active"
+  }
+]

@@ -1,9 +1,24 @@
+const packageJson = require('../../package.json');
+
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
   production: false,
+  envName: 'DEV',
+  i18nPrefix: '',
+  appName: 'Angular Cli Seed',
+  appShortName: 'angular',
+  appPrefix: 'ACS',
+  domain: {
+    app: 'http://localhost:4200'
+  },
+  API: 'http://localhost:5001/moli-content/us-central1',
+  proxy: 'https://square-sound-ef49.mathroya.workers.dev/corsproxy/?apiurl=',
+  versions: {
+    app: packageJson.version
+  },
   useEmulators: false,
   firebase: {
     apiKey: 'AIzaSyD6h91AYrTsn-a4eMFSVbbnQk38jdpDVAo',

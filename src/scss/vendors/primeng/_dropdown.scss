@@ -1,0 +1,12 @@
+.p-dropdown-label {
+  line-height: 1;
+}
+
+.p-dropdown {
+  &.dropdown-menu-right {
+    .p-dropdown-panel {
+      left: auto !important;
+      right: 0;
+    }
+  }
+}

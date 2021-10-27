@@ -1,0 +1,44 @@
+.p-calendar-custom {
+  .p-datepicker {
+    @include flexbox;
+
+    .p-datepicker-header {
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+    }
+  }
+
+  .p-calendar-custom-pick {
+    width: 192px;
+    background-color: #efefef;
+    border-left: 1px solid #dee2e6;
+
+    ul {
+      margin: 0;
+      padding: 2px;
+      list-style-type: none;
+      @include flexbox;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+
+      a {
+        text-transform: uppercase;
+        display: block;
+        padding: 10px 20px;
+        font-size: 13px;
+        font-weight: bold;
+        color: inherit;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+
+        &:hover, &.active {
+          background-color: #007bff;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
